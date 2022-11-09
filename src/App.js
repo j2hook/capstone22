@@ -2,13 +2,15 @@
 import React, { Fragment } from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
 
-function App() {
+function App(name) {
+
   const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "unity_build/Snake4/Build/unity.loader.js",
-    dataUrl: "unity_build/Snake4/Build/unity_build.data",
-    frameworkUrl: "unity_build/Snake4/Build/unity_build.framework.js",
-    codeUrl: "unity_build/Snake4/Build/unity_build.wasm",
+    loaderUrl: "unity_build/"+name+"/Build/"+name+".js",
+    dataUrl: "unity_build/"+name+"/Build/"+name+".data",
+    frameworkUrl: "unity_build/"+name+"/Build/"+name+".framework.js",
+    codeUrl: "unity_build/"+name+"/Build/"+name+".wasm",
   });
+  console.log(name);
   return (
     <Fragment>
       {!isLoaded && (

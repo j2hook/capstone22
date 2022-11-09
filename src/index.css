@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.unityGame_Form {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#unityBtn {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+}
