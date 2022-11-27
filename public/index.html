@@ -4,16 +4,24 @@
     <meta charset="utf-8" />
     <meta http-equiv="content-encoding" content="gzip" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./imgs/">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="%PUBLIC_URL%/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>유니티 게임</title>
   </head>
   <body>
     <div class="unityGame_Form">
-      <div id="unityGamelist">      
-        <input type="button" id="unityBtn" onclick="location.href='unity_build/Snake/index.html'" name="Snake" value="Snake">
-      </div>
+      <img class="unity_Logo" src="./imgs/U_Logo_Black_RGB.svg" alt="logo">
       <div id="unityGamelist">
+        <div id="unityGame">
+          <img src="" alt="">
+          <input type="button" id="unityBtn" onclick="location.href='./unity_build/snake/index.html'" value="스네이크 게임">
+        </div>
+        <div id="unityGame">
+          <img src="" alt="">
+          <input type="button" id="unityBtn" onclick="location.href='./unity_build/platformergame/index.html'" value="플랫포머 게임">
+        </div>
       </div>
     </div>
   </body>
