@@ -7,7 +7,7 @@
  ###### 유진현  
     Front-end 개발  
 
- 졸업작품 소개 사이트:  https://678team.netlify.app/ 
+ 졸업작품 소개 사이트:  https://678team.netlify.app/   
  포트폴리오 소개 사이트:  (개인이 만든 GitHub 페이지)    
 
 
